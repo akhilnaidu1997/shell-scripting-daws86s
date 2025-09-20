@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export COURSE=Devops 
+#export COURSE=Devops 
 
 echo "Course name is $COURSE"
