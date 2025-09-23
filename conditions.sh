@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUMBER=10
+NUMBER=5
 
 if [ $NUMBER -lt 10 ]; then
     echo " Given number $NUMBER is lessthn 10"
