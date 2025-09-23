@@ -15,3 +15,18 @@ if [ $? -ne 0 ]; then
 else
     echo "Installation of mysql is sucessful"
 fi
+
+dnf install nginx -y
+if [ $? -ne 0 ]; then
+    echo " Installation of nginx is failed"
+    exit 1
+else
+    echo " Installation of nginx is successful"
+fi
+
+dnf install mongodb-mongosh -y
+if [ $? -ne 0 ]; then
+    echo " Installation of mongosh is failed"
+else
+    echo " Installation of mongosh is successful"
+fi
